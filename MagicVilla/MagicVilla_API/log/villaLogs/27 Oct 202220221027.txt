@@ -73,3 +73,48 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2022-10-27 15:57:04.036 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API) in 460.2966ms
 2022-10-27 15:57:04.038 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
 2022-10-27 15:57:04.038 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/api/VillaAPI - - - 200 108 application/json;+charset=utf-8 544.7986ms
+2022-10-27 16:00:26.637 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-27 16:00:26.805 +01:00 [DBG] Hosting starting
+2022-10-27 16:00:26.943 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: A2B9ADB1A433A9534AF9D7FF0F063EB22554914B)
+2022-10-27 16:00:27.016 +01:00 [INF] Now listening on: https://localhost:7238
+2022-10-27 16:00:27.016 +01:00 [INF] Now listening on: http://localhost:5238
+2022-10-27 16:00:27.017 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2022-10-27 16:00:27.017 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-27 16:00:27.017 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-27 16:00:27.017 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-27 16:00:27.018 +01:00 [INF] Hosting environment: Development
+2022-10-27 16:00:27.018 +01:00 [INF] Content root path: C:\Users\USER\Desktop\API\MagicVilla\MagicVilla_API\
+2022-10-27 16:00:27.018 +01:00 [DBG] Hosting started
+2022-10-27 16:00:27.324 +01:00 [DBG] Connection id "0HMLO5FTS2F4A" accepted.
+2022-10-27 16:00:27.324 +01:00 [DBG] Connection id "0HMLO5FTS2F4B" accepted.
+2022-10-27 16:00:27.325 +01:00 [DBG] Connection id "0HMLO5FTS2F4B" started.
+2022-10-27 16:00:27.325 +01:00 [DBG] Connection id "0HMLO5FTS2F4A" started.
+2022-10-27 16:00:27.328 +01:00 [DBG] Connection id "0HMLO5FTS2F4A" received FIN.
+2022-10-27 16:00:27.328 +01:00 [DBG] Connection id "0HMLO5FTS2F4B" received FIN.
+2022-10-27 16:00:27.351 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-27 16:00:27.351 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-27 16:00:27.389 +01:00 [DBG] Connection id "0HMLO5FTS2F4A" stopped.
+2022-10-27 16:00:27.389 +01:00 [DBG] Connection id "0HMLO5FTS2F4B" stopped.
+2022-10-27 16:00:27.391 +01:00 [DBG] Connection id "0HMLO5FTS2F4A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-27 16:00:27.391 +01:00 [DBG] Connection id "0HMLO5FTS2F4B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-27 16:00:29.102 +01:00 [DBG] Connection id "0HMLO5FTS2F4C" accepted.
+2022-10-27 16:00:29.119 +01:00 [DBG] Connection id "0HMLO5FTS2F4C" started.
+2022-10-27 16:00:29.480 +01:00 [DBG] Connection 0HMLO5FTS2F4C established using the following protocol: "Tls12"
+2022-10-27 16:00:29.702 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/log/ - -
+2022-10-27 16:00:29.816 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-27 16:00:29.899 +01:00 [DBG] No candidates found for the request path '/log/'
+2022-10-27 16:00:29.900 +01:00 [DBG] Request did not match any endpoints
+2022-10-27 16:00:30.014 +01:00 [DBG] The request path  does not match the path filter
+2022-10-27 16:00:30.044 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/log/ - - - 404 0 - 362.0981ms
+2022-10-27 16:00:31.157 +01:00 [DBG] Connection id "0HMLO5FTS2F4C" received FIN.
+2022-10-27 16:00:31.185 +01:00 [DBG] Connection id "0HMLO5FTS2F4C" is closed. The last processed stream ID was 1.
+2022-10-27 16:00:31.330 +01:00 [DBG] Connection id "0HMLO5FTS2F4C" sending FIN because: "The client closed the connection."
+2022-10-27 16:00:31.332 +01:00 [DBG] Connection id "0HMLO5FTS2F4C" stopped.
