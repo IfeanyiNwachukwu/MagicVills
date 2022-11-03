@@ -335,3 +335,981 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
    at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
 2022-10-27 16:20:46.463 +01:00 [DBG] Connection id "0HMLO5R8BR9PO" stopped.
 2022-10-27 16:20:46.600 +01:00 [DBG] Connection id "0HMLO5R8BR9PO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-27 22:00:27.167 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-27 22:00:28.400 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 22:00:28.630 +01:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2022-10-27 22:00:28.634 +01:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2022-10-27 22:00:28.847 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 22:01:11.061 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-27 22:01:12.276 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 22:01:12.467 +01:00 [DBG] Migrating using database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:12.527 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:13.790 +01:00 [DBG] An error occurred using the connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:13.790 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:13.792 +01:00 [DBG] An error occurred using the connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:13.955 +01:00 [DBG] Opening connection to database 'master' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:13.989 +01:00 [DBG] Opened connection to database 'master' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:14.001 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:01:14.012 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2022-10-27 22:01:14.030 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Magic_VillaAPO];
+2022-10-27 22:01:16.899 +01:00 [INF] Executed DbCommand (2,875ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Magic_VillaAPO];
+2022-10-27 22:01:16.901 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:01:16.901 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:01:16.901 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Magic_VillaAPO] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2022-10-27 22:01:17.789 +01:00 [INF] Executed DbCommand (888ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Magic_VillaAPO] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2022-10-27 22:01:17.790 +01:00 [DBG] Closing connection to database 'master' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:17.798 +01:00 [DBG] Closed connection to database 'master' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:17.803 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:17.810 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:17.810 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:01:17.810 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:01:17.810 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:01:17.826 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:01:17.826 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:17.826 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.019 +01:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2022-10-27 22:01:18.027 +01:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2022-10-27 22:01:18.050 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:01:18.050 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:01:18.050 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.051 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.051 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2022-10-27 22:01:18.173 +01:00 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2022-10-27 22:01:18.173 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.173 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.175 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.176 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.176 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:01:18.176 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:01:18.176 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:01:18.177 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:01:18.177 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.177 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.193 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-10-27 22:01:18.193 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-10-27 22:01:18.193 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.193 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.194 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-10-27 22:01:18.240 +01:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-10-27 22:01:18.241 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.242 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.245 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-27 22:01:18.245 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-10-27 22:01:18.245 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.245 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.246 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-10-27 22:01:18.250 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-10-27 22:01:18.253 +01:00 [DBG] A data reader was disposed.
+2022-10-27 22:01:18.253 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.253 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.274 +01:00 [INF] Applying migration '20221027210028_AddVillaTable'.
+2022-10-27 22:01:18.296 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.297 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.299 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-10-27 22:01:18.324 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-10-27 22:01:18.326 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:01:18.326 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:01:18.327 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Details] nvarchar(max) NULL,
+    [Rate] float NOT NULL,
+    [sqFt] int NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NULL,
+    [Amenity] nvarchar(max) NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2022-10-27 22:01:18.428 +01:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Details] nvarchar(max) NULL,
+    [Rate] float NOT NULL,
+    [sqFt] int NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NULL,
+    [Amenity] nvarchar(max) NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2022-10-27 22:01:18.429 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:01:18.429 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:01:18.429 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221027210028_AddVillaTable', N'6.0.10');
+2022-10-27 22:01:18.480 +01:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221027210028_AddVillaTable', N'6.0.10');
+2022-10-27 22:01:18.481 +01:00 [DBG] Committing transaction.
+2022-10-27 22:01:18.485 +01:00 [DBG] Committed transaction.
+2022-10-27 22:01:18.487 +01:00 [DBG] Disposing transaction.
+2022-10-27 22:01:18.487 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.487 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:01:18.489 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 22:19:20.165 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-27 22:19:21.379 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 22:19:21.638 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.639 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.639 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.639 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.639 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.691 +01:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2022-10-27 22:19:21.695 +01:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2022-10-27 22:19:21.696 +01:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2022-10-27 22:19:21.711 +01:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2022-10-27 22:19:21.790 +01:00 [DBG] Executing 5 update commands as a batch.
+2022-10-27 22:19:21.807 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.807 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.807 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.807 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.807 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.823 +01:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.829 +01:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.829 +01:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.829 +01:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.829 +01:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 22:19:21.829 +01:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2022-10-27 22:19:21.830 +01:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2022-10-27 22:19:21.838 +01:00 [DBG] Executing 5 update commands as a batch.
+2022-10-27 22:19:21.840 +01:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2022-10-27 22:19:21.840 +01:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2022-10-27 22:19:22.062 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 22:19:39.870 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-27 22:19:41.269 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 22:19:41.363 +01:00 [DBG] Migrating using database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:41.373 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:41.811 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:41.857 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:19:41.895 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (58ms).
+2022-10-27 22:19:41.915 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:19:41.960 +01:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:19:41.964 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:41.971 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:41.983 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-10-27 22:19:41.983 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-10-27 22:19:41.983 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:41.984 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:41.986 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-10-27 22:19:42.038 +01:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-10-27 22:19:42.038 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.039 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.041 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.041 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.041 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:19:42.041 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:19:42.041 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:19:42.044 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-10-27 22:19:42.044 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.044 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.044 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-10-27 22:19:42.044 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-10-27 22:19:42.044 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.044 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.044 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-10-27 22:19:42.045 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-10-27 22:19:42.045 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.045 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.081 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-27 22:19:42.082 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-10-27 22:19:42.082 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.082 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.082 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-10-27 22:19:42.120 +01:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-10-27 22:19:42.124 +01:00 [DBG] A data reader was disposed.
+2022-10-27 22:19:42.124 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.124 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.147 +01:00 [INF] Applying migration '20221027211921_SeedDatabase'.
+2022-10-27 22:19:42.227 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.227 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:42.229 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-10-27 22:19:42.239 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-10-27 22:19:42.240 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:19:42.240 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:19:42.241 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Villas].[sqFt]', N'SqFt', N'COLUMN';
+2022-10-27 22:19:43.152 +01:00 [INF] Executed DbCommand (911ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Villas].[sqFt]', N'SqFt', N'COLUMN';
+2022-10-27 22:19:43.152 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:19:43.152 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:19:43.153 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'SqFt', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [SqFt], [UpdatedDate])
+VALUES (1, N'', '2022-10-27T22:19:21.3981961+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '2022-10-27T22:19:21.3981978+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '2022-10-27T22:19:21.3981980+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '2022-10-27T22:19:21.3981981+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '2022-10-27T22:19:21.3981983+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'SqFt', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2022-10-27 22:19:43.220 +01:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'SqFt', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [SqFt], [UpdatedDate])
+VALUES (1, N'', '2022-10-27T22:19:21.3981961+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '2022-10-27T22:19:21.3981978+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '2022-10-27T22:19:21.3981980+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '2022-10-27T22:19:21.3981981+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '2022-10-27T22:19:21.3981983+01:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'SqFt', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2022-10-27 22:19:43.220 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-27 22:19:43.220 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-27 22:19:43.220 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221027211921_SeedDatabase', N'6.0.10');
+2022-10-27 22:19:43.222 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221027211921_SeedDatabase', N'6.0.10');
+2022-10-27 22:19:43.224 +01:00 [DBG] Committing transaction.
+2022-10-27 22:19:43.228 +01:00 [DBG] Committed transaction.
+2022-10-27 22:19:43.230 +01:00 [DBG] Disposing transaction.
+2022-10-27 22:19:43.230 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:43.230 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 22:19:43.232 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 23:09:25.117 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-27 23:09:26.287 +01:00 [DBG] Hosting starting
+2022-10-27 23:09:27.272 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: A2B9ADB1A433A9534AF9D7FF0F063EB22554914B)
+2022-10-27 23:09:27.313 +01:00 [INF] Now listening on: https://localhost:7238
+2022-10-27 23:09:27.313 +01:00 [INF] Now listening on: http://localhost:5238
+2022-10-27 23:09:27.313 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2022-10-27 23:09:27.313 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-27 23:09:27.313 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-27 23:09:27.313 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-27 23:09:27.314 +01:00 [INF] Hosting environment: Development
+2022-10-27 23:09:27.314 +01:00 [INF] Content root path: C:\Users\USER\Desktop\API\MagicVilla\MagicVilla_API\
+2022-10-27 23:09:27.314 +01:00 [DBG] Hosting started
+2022-10-27 23:09:27.389 +01:00 [DBG] Connection id "0HMLOCVL0E3P0" accepted.
+2022-10-27 23:09:27.391 +01:00 [DBG] Connection id "0HMLOCVL0E3P0" started.
+2022-10-27 23:09:27.391 +01:00 [DBG] Connection id "0HMLOCVL0E3P0" received FIN.
+2022-10-27 23:09:27.410 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-27 23:09:28.041 +01:00 [DBG] Connection id "0HMLOCVL0E3P0" stopped.
+2022-10-27 23:09:28.044 +01:00 [DBG] Connection id "0HMLOCVL0E3P0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-27 23:09:44.853 +01:00 [DBG] Connection id "0HMLOCVL0E3P1" accepted.
+2022-10-27 23:09:44.856 +01:00 [DBG] Connection id "0HMLOCVL0E3P1" started.
+2022-10-27 23:09:44.858 +01:00 [DBG] Connection id "0HMLOCVL0E3P2" accepted.
+2022-10-27 23:09:44.858 +01:00 [DBG] Connection id "0HMLOCVL0E3P2" started.
+2022-10-27 23:09:45.150 +01:00 [DBG] Connection id "0HMLOCVL0E3P1" received FIN.
+2022-10-27 23:09:45.467 +01:00 [DBG] Connection 0HMLOCVL0E3P1 established using the following protocol: "Tls12"
+2022-10-27 23:09:45.467 +01:00 [DBG] Connection 0HMLOCVL0E3P2 established using the following protocol: "Tls12"
+2022-10-27 23:09:46.708 +01:00 [DBG] Connection id "0HMLOCVL0E3P1" is closed. The last processed stream ID was 0.
+2022-10-27 23:09:46.709 +01:00 [DBG] Connection id "0HMLOCVL0E3P1" sending FIN because: "The client closed the connection."
+2022-10-27 23:09:46.720 +01:00 [DBG] Connection id "0HMLOCVL0E3P1" stopped.
+2022-10-27 23:09:47.423 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/swagger/index.html - -
+2022-10-27 23:09:48.010 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-27 23:09:48.770 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-27 23:09:48.770 +01:00 [DBG] Request did not match any endpoints
+2022-10-27 23:09:49.847 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-27 23:09:51.502 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/_framework/aspnetcore-browser-refresh.js - -
+2022-10-27 23:09:51.520 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/_vs/browserLink - -
+2022-10-27 23:09:51.542 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-27 23:09:51.559 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/swagger/index.html - - - 200 - text/html;charset=utf-8 4139.1348ms
+2022-10-27 23:09:52.084 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 581.8048ms
+2022-10-27 23:09:52.109 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 589.7028ms
+2022-10-27 23:09:53.319 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/swagger/v1/swagger.json - -
+2022-10-27 23:09:53.320 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-27 23:09:53.320 +01:00 [DBG] Request did not match any endpoints
+2022-10-27 23:09:57.886 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4566.9140ms
+2022-10-27 23:10:15.285 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/api/VillaAPI - -
+2022-10-27 23:10:15.306 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2022-10-27 23:10:15.346 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2022-10-27 23:10:15.346 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2022-10-27 23:10:15.348 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:10:15.417 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2022-10-27 23:10:15.590 +01:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MagicVilla_API.DTOs.Readable.VillaDTO]] GetVillas() on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:10:15.592 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:10:15.592 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:10:15.593 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:10:15.593 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:10:15.593 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:10:15.597 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:10:16.699 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-27 23:10:16.854 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:10:16.867 +01:00 [INF] Getting All villas
+2022-10-27 23:10:16.868 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:10:16.872 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2022-10-27 23:10:16.897 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-27 23:10:16.898 +01:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[MagicVilla_API.Models.Villa, MagicVilla_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-27 23:10:17.092 +01:00 [DBG] Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[MagicVilla_API.Models.Villa, MagicVilla_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-27 23:10:18.673 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 23:10:19.501 +01:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2022-10-27 23:10:20.174 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string), 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string), 3], [Property: Villa.ImageUrl (string), 4], [Property: Villa.Name (string), 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.SqFt (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.SqFt, v.UpdatedDate
+        FROM Villas AS v), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    MagicVilla_API.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2022-10-27 23:10:20.318 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-27 23:10:21.068 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (750ms).
+2022-10-27 23:10:21.093 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:10:24.214 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:10:24.229 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2022-10-27 23:10:24.373 +01:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2022-10-27 23:10:24.437 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:10:24.508 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:10:24.508 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:10:24.508 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:10:24.508 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:10:24.531 +01:00 [DBG] A data reader was disposed.
+2022-10-27 23:10:24.552 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:10:24.569 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:10:25.108 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API) in 9503.5965ms
+2022-10-27 23:10:25.115 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVillas (MagicVilla_API)'
+2022-10-27 23:10:25.132 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 23:10:25.139 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/api/VillaAPI - - - 200 1908 application/json;+charset=utf-8 9854.7633ms
+2022-10-27 23:10:45.821 +01:00 [DBG] Connection id "0HMLOCVL0E3P2" received FIN.
+2022-10-27 23:10:45.821 +01:00 [DBG] Connection id "0HMLOCVL0E3P2" is closed. The last processed stream ID was 9.
+2022-10-27 23:10:45.821 +01:00 [DBG] Connection id "0HMLOCVL0E3P2" sending FIN because: "The client closed the connection."
+2022-10-27 23:10:45.838 +01:00 [DBG] Connection id "0HMLOCVL0E3P2" stopped.
+2022-10-27 23:11:04.788 +01:00 [DBG] Connection id "0HMLOCVL0E3P3" accepted.
+2022-10-27 23:11:04.788 +01:00 [DBG] Connection id "0HMLOCVL0E3P3" started.
+2022-10-27 23:11:04.802 +01:00 [DBG] Connection 0HMLOCVL0E3P3 established using the following protocol: "Tls12"
+2022-10-27 23:11:04.803 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/api/VillaAPI/4 - -
+2022-10-27 23:11:04.804 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/4'
+2022-10-27 23:11:04.807 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/4'
+2022-10-27 23:11:04.807 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)'
+2022-10-27 23:11:04.807 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:11:04.807 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)'
+2022-10-27 23:11:04.863 +01:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetVilla(Int32) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:11:04.863 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:11:04.863 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:11:04.863 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:11:04.863 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:11:04.863 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:11:04.863 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:11:04.864 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:11:04.879 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:11:04.882 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:11:04.890 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:11:04.890 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:11:04.890 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:11:04.894 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:11:04.899 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 23:11:05.055 +01:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .FirstOrDefault(u => u.Id == __id_0)'
+2022-10-27 23:11:05.306 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string), 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string), 3], [Property: Villa.ImageUrl (string), 4], [Property: Villa.Name (string), 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.SqFt (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.SqFt, v.UpdatedDate
+        FROM Villas AS v
+        WHERE v.Id == @__id_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    MagicVilla_API.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2022-10-27 23:11:05.324 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-27 23:11:05.326 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-10-27 23:11:05.333 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:11:05.338 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:11:05.370 +01:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-10-27 23:11:05.416 +01:00 [INF] Executed DbCommand (77ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-10-27 23:11:05.417 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:11:05.420 +01:00 [DBG] A data reader was disposed.
+2022-10-27 23:11:05.421 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:11:05.422 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:11:05.422 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:11:05.423 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:11:05.423 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-27 23:11:05.423 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-27 23:11:05.423 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-27 23:11:05.423 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_API.Models.Villa'.
+2022-10-27 23:11:05.423 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API) in 559.7285ms
+2022-10-27 23:11:05.423 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)'
+2022-10-27 23:11:05.423 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 23:11:05.423 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/api/VillaAPI/4 - - - 200 378 application/json;+charset=utf-8 620.2653ms
+2022-10-27 23:11:07.337 +01:00 [DBG] Connection id "0HMLOCVL0E3P3" received FIN.
+2022-10-27 23:11:07.337 +01:00 [DBG] Connection id "0HMLOCVL0E3P3" is closed. The last processed stream ID was 1.
+2022-10-27 23:11:07.337 +01:00 [DBG] Connection id "0HMLOCVL0E3P3" sending FIN because: "The client closed the connection."
+2022-10-27 23:11:07.337 +01:00 [DBG] Connection id "0HMLOCVL0E3P3" stopped.
+2022-10-27 23:12:54.928 +01:00 [DBG] Connection id "0HMLOCVL0E3P4" accepted.
+2022-10-27 23:12:54.984 +01:00 [DBG] Connection id "0HMLOCVL0E3P4" started.
+2022-10-27 23:12:55.012 +01:00 [DBG] Connection 0HMLOCVL0E3P4 established using the following protocol: "Tls12"
+2022-10-27 23:12:55.013 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7238/api/VillaAPI application/json-patch+json 324
+2022-10-27 23:12:55.013 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2022-10-27 23:12:55.013 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.CreateVilla (MagicVilla_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2022-10-27 23:12:55.013 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.CreateVilla (MagicVilla_API)'
+2022-10-27 23:12:55.013 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:12:55.013 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.CreateVilla (MagicVilla_API)'
+2022-10-27 23:12:55.015 +01:00 [INF] Route matched with {action = "CreateVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MagicVilla_API.DTOs.Readable.VillaDTO] CreateVilla(MagicVilla_API.DTOs.Readable.VillaDTO) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:12:55.015 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:12:55.015 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:12:55.016 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:12:55.016 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:12:55.016 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:12:55.016 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:12:55.017 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:12:55.017 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:12:55.018 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' using the name '' in request data ...
+2022-10-27 23:12:55.019 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:12:55.020 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:12:55.050 +01:00 [DBG] Connection id "0HMLOCVL0E3P4", Request id "0HMLOCVL0E3P4:00000001": started reading request body.
+2022-10-27 23:12:55.051 +01:00 [DBG] Connection id "0HMLOCVL0E3P4", Request id "0HMLOCVL0E3P4:00000001": done reading request body.
+2022-10-27 23:12:55.175 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:12:55.175 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:12:55.175 +01:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:12:55.219 +01:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:12:55.297 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 23:12:55.300 +01:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .FirstOrDefault(u => u.Name.ToLower() == __ToLower_0)'
+2022-10-27 23:12:55.585 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string), 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string), 3], [Property: Villa.ImageUrl (string), 4], [Property: Villa.Name (string), 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.SqFt (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.SqFt, v.UpdatedDate
+        FROM Villas AS v
+        WHERE LOWER(v.Name) == @__ToLower_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    MagicVilla_API.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2022-10-27 23:12:55.600 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-27 23:12:55.600 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-10-27 23:12:55.601 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:55.601 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:55.601 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2022-10-27 23:12:55.684 +01:00 [INF] Executed DbCommand (83ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2022-10-27 23:12:55.684 +01:00 [DBG] A data reader was disposed.
+2022-10-27 23:12:55.684 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:55.684 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:55.717 +01:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'Id.Villa'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:12:55.730 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:12:55.733 +01:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2022-10-27 23:12:55.737 +01:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2022-10-27 23:12:55.768 +01:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2022-10-27 23:12:55.780 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:55.780 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:55.782 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-10-27 23:12:55.797 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-10-27 23:12:55.874 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-27 23:12:55.874 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-10-27 23:12:55.876 +01:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [SqFt], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [Villas]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-10-27 23:12:56.406 +01:00 [INF] Executed DbCommand (530ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [SqFt], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [Villas]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-10-27 23:12:56.444 +01:00 [DBG] The foreign key property 'Villa.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-10-27 23:12:56.450 +01:00 [DBG] A data reader was disposed.
+2022-10-27 23:12:56.456 +01:00 [DBG] Committing transaction.
+2022-10-27 23:12:56.474 +01:00 [DBG] Committed transaction.
+2022-10-27 23:12:56.475 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:56.475 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:12:56.479 +01:00 [DBG] Disposing transaction.
+2022-10-27 23:12:56.501 +01:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:12:56.508 +01:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2022-10-27 23:12:56.783 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:12:56.783 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-10-27 23:12:56.783 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-10-27 23:12:56.783 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-27 23:12:56.783 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-27 23:12:56.783 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-27 23:12:56.783 +01:00 [INF] Executing CreatedAtRouteResult, writing value of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:12:56.812 +01:00 [DBG] Found the endpoints ["MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-10-27 23:12:56.825 +01:00 [DBG] Successfully processed template api/VillaAPI/{id:int} for MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API) resulting in /api/VillaAPI/0 and 
+2022-10-27 23:12:56.888 +01:00 [DBG] Link generation succeeded for endpoints ["MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)"] with result /api/VillaAPI/0
+2022-10-27 23:12:56.890 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.CreateVilla (MagicVilla_API) in 1874.375ms
+2022-10-27 23:12:56.890 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.CreateVilla (MagicVilla_API)'
+2022-10-27 23:12:56.890 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 23:12:56.890 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7238/api/VillaAPI application/json-patch+json 324 - 201 298 application/json;+charset=utf-8 1877.5343ms
+2022-10-27 23:13:27.399 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/api/VillaAPI/6 - -
+2022-10-27 23:13:27.399 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/6'
+2022-10-27 23:13:27.401 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/6'
+2022-10-27 23:13:27.401 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)'
+2022-10-27 23:13:27.404 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:13:27.404 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)'
+2022-10-27 23:13:27.406 +01:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetVilla(Int32) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:13:27.406 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:13:27.406 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:13:27.406 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:13:27.406 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:13:27.406 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:13:27.406 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:13:27.406 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:13:27.406 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:13:27.406 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:13:27.407 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:13:27.407 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:13:27.407 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:13:27.407 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:13:27.407 +01:00 [INF] Entity Framework Core 6.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-27 23:13:27.413 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-27 23:13:27.414 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-10-27 23:13:27.414 +01:00 [DBG] Opening connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:13:27.414 +01:00 [DBG] Opened connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:13:27.414 +01:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-10-27 23:13:27.421 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SqFt], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-10-27 23:13:27.422 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-27 23:13:27.422 +01:00 [DBG] A data reader was disposed.
+2022-10-27 23:13:27.422 +01:00 [DBG] Closing connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:13:27.422 +01:00 [DBG] Closed connection to database 'Magic_VillaAPO' on server 'DESKTOP-0PNI7Q8'.
+2022-10-27 23:13:27.422 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:13:27.422 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:13:27.422 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-27 23:13:27.422 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-27 23:13:27.422 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-27 23:13:27.422 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_API.Models.Villa'.
+2022-10-27 23:13:27.423 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API) in 16.4842ms
+2022-10-27 23:13:27.423 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.GetVilla (MagicVilla_API)'
+2022-10-27 23:13:27.423 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2022-10-27 23:13:27.423 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/api/VillaAPI/6 - - - 200 370 application/json;+charset=utf-8 23.7637ms
+2022-10-27 23:14:22.794 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 321
+2022-10-27 23:14:22.794 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/6'
+2022-10-27 23:14:22.795 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/6'
+2022-10-27 23:14:22.795 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:14:22.795 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:14:22.795 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:14:22.796 +01:00 [INF] Route matched with {action = "UpdateVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, MagicVilla_API.DTOs.Readable.VillaDTO) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:14:22.797 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:14:22.797 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:14:22.797 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:14:22.797 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:14:22.797 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:14:22.797 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:14:22.797 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:14:22.797 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:14:22.797 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:14:22.797 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:14:22.797 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:14:22.797 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:14:22.797 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:14:22.797 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:14:22.797 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' using the name '' in request data ...
+2022-10-27 23:14:22.797 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:14:22.797 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:14:22.797 +01:00 [DBG] Connection id "0HMLOCVL0E3P4", Request id "0HMLOCVL0E3P4:00000005": started reading request body.
+2022-10-27 23:14:22.797 +01:00 [DBG] Connection id "0HMLOCVL0E3P4", Request id "0HMLOCVL0E3P4:00000005": done reading request body.
+2022-10-27 23:14:22.797 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:14:22.797 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:14:22.798 +01:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:14:22.798 +01:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:14:22.817 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:14:22.818 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:14:22.818 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-10-27 23:14:22.818 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-10-27 23:14:22.818 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-10-27 23:14:22.857 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API) in 60.5626ms
+2022-10-27 23:14:22.857 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:14:22.857 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 321 - 400 163 application/problem+json;+charset=utf-8 63.4703ms
+2022-10-27 23:14:54.735 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 338
+2022-10-27 23:14:54.737 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/6'
+2022-10-27 23:14:54.737 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/6'
+2022-10-27 23:14:54.737 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:14:54.737 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:14:54.737 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:14:54.737 +01:00 [INF] Route matched with {action = "UpdateVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, MagicVilla_API.DTOs.Readable.VillaDTO) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:14:54.737 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:14:54.737 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:14:54.737 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:14:54.737 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:14:54.737 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:14:54.738 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:14:54.738 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:14:54.738 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:14:54.738 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:14:54.738 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:14:54.738 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:14:54.738 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:14:54.738 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:14:54.738 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:14:54.738 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' using the name '' in request data ...
+2022-10-27 23:14:54.738 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:14:54.738 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:14:54.738 +01:00 [DBG] Connection id "0HMLOCVL0E3P4", Request id "0HMLOCVL0E3P4:00000007": started reading request body.
+2022-10-27 23:14:54.738 +01:00 [DBG] Connection id "0HMLOCVL0E3P4", Request id "0HMLOCVL0E3P4:00000007": done reading request body.
+2022-10-27 23:14:54.776 +01:00 [DBG] JSON input formatter threw an exception.
+Newtonsoft.Json.JsonReaderException: Invalid property identifier character: {. Path '', line 2, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonReader.ReadAndAssert()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+2022-10-27 23:14:54.778 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:14:54.778 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:14:54.778 +01:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:14:54.778 +01:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:14:54.779 +01:00 [DBG] The request has model state errors, returning an error response.
+2022-10-27 23:14:54.957 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2022-10-27 23:14:54.957 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:14:54.957 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:14:54.957 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-10-27 23:14:54.957 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-10-27 23:14:54.957 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-10-27 23:14:55.011 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API) in 273.5224ms
+2022-10-27 23:14:55.011 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:14:55.011 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 338 - 400 280 application/problem+json;+charset=utf-8 276.2802ms
+2022-10-27 23:15:01.342 +01:00 [DBG] Connection id "0HMLOCVL0E3P4" received FIN.
+2022-10-27 23:15:01.343 +01:00 [DBG] Connection id "0HMLOCVL0E3P4" is closed. The last processed stream ID was 7.
+2022-10-27 23:15:01.343 +01:00 [DBG] Connection id "0HMLOCVL0E3P4" stopped.
+2022-10-27 23:15:01.344 +01:00 [DBG] Connection id "0HMLOCVL0E3P4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-27 23:15:44.033 +01:00 [DBG] Connection id "0HMLOCVL0E3P5" accepted.
+2022-10-27 23:15:44.039 +01:00 [DBG] Connection id "0HMLOCVL0E3P5" started.
+2022-10-27 23:15:44.060 +01:00 [DBG] Connection 0HMLOCVL0E3P5 established using the following protocol: "Tls12"
+2022-10-27 23:15:44.067 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 344
+2022-10-27 23:15:44.067 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/6'
+2022-10-27 23:15:44.067 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/6'
+2022-10-27 23:15:44.067 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:15:44.067 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:15:44.067 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:15:44.067 +01:00 [INF] Route matched with {action = "UpdateVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, MagicVilla_API.DTOs.Readable.VillaDTO) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:15:44.067 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:15:44.067 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:15:44.067 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:15:44.067 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:15:44.067 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:15:44.067 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:15:44.068 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:15:44.068 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:15:44.068 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:15:44.068 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:15:44.068 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:15:44.068 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:15:44.068 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:15:44.068 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:15:44.068 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' using the name '' in request data ...
+2022-10-27 23:15:44.068 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:15:44.068 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:15:44.068 +01:00 [DBG] Connection id "0HMLOCVL0E3P5", Request id "0HMLOCVL0E3P5:00000001": started reading request body.
+2022-10-27 23:15:44.068 +01:00 [DBG] Connection id "0HMLOCVL0E3P5", Request id "0HMLOCVL0E3P5:00000001": done reading request body.
+2022-10-27 23:15:44.068 +01:00 [DBG] JSON input formatter threw an exception.
+Newtonsoft.Json.JsonReaderException: Invalid property identifier character: {. Path '', line 2, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonReader.ReadAndAssert()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+2022-10-27 23:15:44.068 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:15:44.068 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:15:44.068 +01:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:15:44.068 +01:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:15:44.068 +01:00 [DBG] The request has model state errors, returning an error response.
+2022-10-27 23:15:44.068 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2022-10-27 23:15:44.068 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:15:44.069 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:15:44.069 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-10-27 23:15:44.069 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-10-27 23:15:44.069 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-10-27 23:15:44.069 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API) in 1.3339ms
+2022-10-27 23:15:44.069 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:15:44.069 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 344 - 400 280 application/problem+json;+charset=utf-8 2.1508ms
+2022-10-27 23:16:04.322 +01:00 [DBG] Connection id "0HMLOCVL0E3P5" received FIN.
+2022-10-27 23:16:04.323 +01:00 [DBG] Connection id "0HMLOCVL0E3P5" is closed. The last processed stream ID was 1.
+2022-10-27 23:16:04.323 +01:00 [DBG] Connection id "0HMLOCVL0E3P5" sending FIN because: "The client closed the connection."
+2022-10-27 23:16:04.323 +01:00 [DBG] Connection id "0HMLOCVL0E3P5" stopped.
+2022-10-27 23:17:07.730 +01:00 [DBG] Connection id "0HMLOCVL0E3P6" accepted.
+2022-10-27 23:17:07.730 +01:00 [DBG] Connection id "0HMLOCVL0E3P6" started.
+2022-10-27 23:17:07.737 +01:00 [DBG] Connection 0HMLOCVL0E3P6 established using the following protocol: "Tls12"
+2022-10-27 23:17:07.740 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 344
+2022-10-27 23:17:07.740 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/6'
+2022-10-27 23:17:07.740 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/6'
+2022-10-27 23:17:07.740 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:17:07.740 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:17:07.740 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:17:07.777 +01:00 [INF] Route matched with {action = "UpdateVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, MagicVilla_API.DTOs.Readable.VillaDTO) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:17:07.777 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:17:07.777 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:17:07.777 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:17:07.777 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:17:07.777 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:17:07.778 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:17:07.806 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:17:07.806 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:17:07.806 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:17:07.806 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:17:07.807 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:17:07.807 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:17:07.807 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:17:07.807 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:17:07.807 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' using the name '' in request data ...
+2022-10-27 23:17:07.807 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:17:07.807 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:17:07.807 +01:00 [DBG] Connection id "0HMLOCVL0E3P6", Request id "0HMLOCVL0E3P6:00000001": started reading request body.
+2022-10-27 23:17:07.807 +01:00 [DBG] Connection id "0HMLOCVL0E3P6", Request id "0HMLOCVL0E3P6:00000001": done reading request body.
+2022-10-27 23:17:07.808 +01:00 [DBG] JSON input formatter threw an exception.
+Newtonsoft.Json.JsonReaderException: Invalid property identifier character: {. Path '', line 2, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonReader.ReadAndAssert()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+2022-10-27 23:17:07.809 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:17:07.809 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:17:07.810 +01:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:17:07.810 +01:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:17:07.810 +01:00 [DBG] The request has model state errors, returning an error response.
+2022-10-27 23:17:07.810 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2022-10-27 23:17:07.811 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:17:07.811 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:17:07.811 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-10-27 23:17:07.811 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-10-27 23:17:07.811 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-10-27 23:17:07.811 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API) in 33.8634ms
+2022-10-27 23:17:07.811 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:17:07.812 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 344 - 400 280 application/problem+json;+charset=utf-8 72.1374ms
+2022-10-27 23:17:23.826 +01:00 [DBG] Connection id "0HMLOCVL0E3P6" received FIN.
+2022-10-27 23:17:23.826 +01:00 [DBG] Connection id "0HMLOCVL0E3P6" is closed. The last processed stream ID was 1.
+2022-10-27 23:17:23.826 +01:00 [DBG] Connection id "0HMLOCVL0E3P6" sending FIN because: "The client closed the connection."
+2022-10-27 23:17:23.826 +01:00 [DBG] Connection id "0HMLOCVL0E3P6" stopped.
+2022-10-27 23:17:42.516 +01:00 [DBG] Connection id "0HMLOCVL0E3P7" accepted.
+2022-10-27 23:17:42.516 +01:00 [DBG] Connection id "0HMLOCVL0E3P7" started.
+2022-10-27 23:17:42.522 +01:00 [DBG] Connection 0HMLOCVL0E3P7 established using the following protocol: "Tls12"
+2022-10-27 23:17:42.525 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 344
+2022-10-27 23:17:42.527 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/6'
+2022-10-27 23:17:42.527 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/6'
+2022-10-27 23:17:42.527 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:17:42.527 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:17:42.527 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:17:42.528 +01:00 [INF] Route matched with {action = "UpdateVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, MagicVilla_API.DTOs.Readable.VillaDTO) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:17:42.528 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:17:42.528 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:17:42.528 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:17:42.528 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:17:42.528 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:17:42.528 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:17:42.528 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:17:42.528 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:17:42.528 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:17:42.528 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:17:42.528 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:17:42.528 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:17:42.528 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:17:42.528 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:17:42.528 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' using the name '' in request data ...
+2022-10-27 23:17:42.528 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:17:42.528 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:17:42.528 +01:00 [DBG] Connection id "0HMLOCVL0E3P7", Request id "0HMLOCVL0E3P7:00000001": started reading request body.
+2022-10-27 23:17:42.528 +01:00 [DBG] Connection id "0HMLOCVL0E3P7", Request id "0HMLOCVL0E3P7:00000001": done reading request body.
+2022-10-27 23:17:42.528 +01:00 [DBG] JSON input formatter threw an exception.
+Newtonsoft.Json.JsonReaderException: Invalid property identifier character: {. Path '', line 2, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonReader.ReadAndAssert()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+2022-10-27 23:17:42.528 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:17:42.529 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:17:42.529 +01:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:17:42.529 +01:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:17:42.529 +01:00 [DBG] The request has model state errors, returning an error response.
+2022-10-27 23:17:42.529 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2022-10-27 23:17:42.529 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:17:42.529 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:17:42.529 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-10-27 23:17:42.529 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-10-27 23:17:42.529 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-10-27 23:17:42.529 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API) in 1.197ms
+2022-10-27 23:17:42.529 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:17:42.529 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 344 - 400 280 application/problem+json;+charset=utf-8 5.4650ms
+2022-10-27 23:18:16.329 +01:00 [DBG] Connection id "0HMLOCVL0E3P7" received FIN.
+2022-10-27 23:18:16.330 +01:00 [DBG] Connection id "0HMLOCVL0E3P7" is closed. The last processed stream ID was 1.
+2022-10-27 23:18:16.330 +01:00 [DBG] Connection id "0HMLOCVL0E3P7" sending FIN because: "The client closed the connection."
+2022-10-27 23:18:16.351 +01:00 [DBG] Connection id "0HMLOCVL0E3P7" stopped.
+2022-10-27 23:19:19.626 +01:00 [DBG] Connection id "0HMLOCVL0E3P8" accepted.
+2022-10-27 23:19:19.633 +01:00 [DBG] Connection id "0HMLOCVL0E3P8" started.
+2022-10-27 23:19:19.651 +01:00 [DBG] Connection 0HMLOCVL0E3P8 established using the following protocol: "Tls12"
+2022-10-27 23:19:19.653 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 346
+2022-10-27 23:19:19.654 +01:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/6'
+2022-10-27 23:19:19.654 +01:00 [DBG] Endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/6'
+2022-10-27 23:19:19.654 +01:00 [DBG] Request matched endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:19:19.654 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-27 23:19:19.656 +01:00 [INF] Executing endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:19:19.656 +01:00 [INF] Route matched with {action = "UpdateVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, MagicVilla_API.DTOs.Readable.VillaDTO) on controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API).
+2022-10-27 23:19:19.657 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-27 23:19:19.657 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-27 23:19:19.657 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-27 23:19:19.657 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-27 23:19:19.657 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-27 23:19:19.657 +01:00 [DBG] Executing controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:19:19.657 +01:00 [DBG] Executed controller factory for controller MagicVilla_API.Controllers.VillaAPIController (MagicVilla_API)
+2022-10-27 23:19:19.657 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:19:19.657 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-27 23:19:19.657 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:19:19.657 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-27 23:19:19.657 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-27 23:19:19.657 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-27 23:19:19.657 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:19:19.657 +01:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' using the name '' in request data ...
+2022-10-27 23:19:19.657 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:19:19.657 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2022-10-27 23:19:19.657 +01:00 [DBG] Connection id "0HMLOCVL0E3P8", Request id "0HMLOCVL0E3P8:00000001": started reading request body.
+2022-10-27 23:19:19.658 +01:00 [DBG] Connection id "0HMLOCVL0E3P8", Request id "0HMLOCVL0E3P8:00000001": done reading request body.
+2022-10-27 23:19:19.658 +01:00 [DBG] JSON input formatter threw an exception.
+Newtonsoft.Json.JsonReaderException: Invalid property identifier character: {. Path '', line 2, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonReader.ReadAndAssert()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+2022-10-27 23:19:19.658 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:19:19.658 +01:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:19:19.658 +01:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO' ...
+2022-10-27 23:19:19.658 +01:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'MagicVilla_API.DTOs.Readable.VillaDTO'.
+2022-10-27 23:19:19.658 +01:00 [DBG] The request has model state errors, returning an error response.
+2022-10-27 23:19:19.658 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2022-10-27 23:19:19.658 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-10-27 23:19:19.658 +01:00 [DBG] No information found on request to perform content negotiation.
+2022-10-27 23:19:19.658 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-10-27 23:19:19.658 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-10-27 23:19:19.658 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-10-27 23:19:19.658 +01:00 [INF] Executed action MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API) in 1.4976ms
+2022-10-27 23:19:19.658 +01:00 [INF] Executed endpoint 'MagicVilla_API.Controllers.VillaAPIController.UpdateVilla (MagicVilla_API)'
+2022-10-27 23:19:19.659 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7238/api/VillaAPI/6 application/json-patch+json 346 - 400 280 application/problem+json;+charset=utf-8 5.2324ms
+2022-10-27 23:20:17.828 +01:00 [DBG] Connection id "0HMLOCVL0E3P8" received FIN.
+2022-10-27 23:20:17.832 +01:00 [DBG] Connection id "0HMLOCVL0E3P8" is closed. The last processed stream ID was 1.
+2022-10-27 23:20:17.841 +01:00 [DBG] Connection id "0HMLOCVL0E3P8" sending FIN because: "The client closed the connection."
+2022-10-27 23:20:17.847 +01:00 [DBG] Connection id "0HMLOCVL0E3P8" stopped.
+2022-10-27 23:27:48.560 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-27 23:27:48.695 +01:00 [DBG] Hosting starting
+2022-10-27 23:27:48.882 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: A2B9ADB1A433A9534AF9D7FF0F063EB22554914B)
+2022-10-27 23:27:48.925 +01:00 [INF] Now listening on: https://localhost:7238
+2022-10-27 23:27:48.925 +01:00 [INF] Now listening on: http://localhost:5238
+2022-10-27 23:27:48.925 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2022-10-27 23:27:48.925 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-27 23:27:48.925 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-27 23:27:48.925 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-27 23:27:48.925 +01:00 [INF] Hosting environment: Development
+2022-10-27 23:27:48.925 +01:00 [INF] Content root path: C:\Users\USER\Desktop\API\MagicVilla\MagicVilla_API\
+2022-10-27 23:27:48.925 +01:00 [DBG] Hosting started
+2022-10-27 23:27:49.221 +01:00 [DBG] Connection id "0HMLOD9TCCIUV" received FIN.
+2022-10-27 23:27:49.235 +01:00 [DBG] Connection id "0HMLOD9TCCIUV" accepted.
+2022-10-27 23:27:49.260 +01:00 [DBG] Connection id "0HMLOD9TCCIUV" started.
+2022-10-27 23:27:49.453 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-27 23:27:50.173 +01:00 [DBG] Connection id "0HMLOD9TCCIUV" stopped.
+2022-10-27 23:27:50.313 +01:00 [DBG] Connection id "0HMLOD9TCCIUV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-27 23:27:51.479 +01:00 [DBG] Connection id "0HMLOD9TCCIV0" accepted.
+2022-10-27 23:27:51.479 +01:00 [DBG] Connection id "0HMLOD9TCCIV0" started.
+2022-10-27 23:27:51.581 +01:00 [DBG] Connection 0HMLOD9TCCIV0 established using the following protocol: "Tls12"
+2022-10-27 23:27:51.765 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/swagger/index.html - -
+2022-10-27 23:27:51.855 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-27 23:27:51.931 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-27 23:27:51.932 +01:00 [DBG] Request did not match any endpoints
+2022-10-27 23:27:52.318 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-27 23:27:52.809 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-27 23:27:52.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/_framework/aspnetcore-browser-refresh.js - -
+2022-10-27 23:27:52.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/_vs/browserLink - -
+2022-10-27 23:27:52.836 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 15.0842ms
+2022-10-27 23:27:52.837 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/swagger/index.html - - - 200 - text/html;charset=utf-8 1095.7373ms
+2022-10-27 23:27:52.874 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.1267ms
+2022-10-27 23:27:53.089 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7238/swagger/v1/swagger.json - -
+2022-10-27 23:27:53.089 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-27 23:27:53.089 +01:00 [DBG] Request did not match any endpoints
+2022-10-27 23:27:53.515 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7238/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 426.6013ms
+2022-10-27 23:28:12.265 +01:00 [DBG] Connection id "0HMLOD9TCCIV0" received FIN.
+2022-10-27 23:28:12.274 +01:00 [DBG] Connection id "0HMLOD9TCCIV0" is closed. The last processed stream ID was 7.
+2022-10-27 23:28:12.274 +01:00 [DBG] Connection id "0HMLOD9TCCIV0" sending FIN because: "The client closed the connection."
+2022-10-27 23:28:12.286 +01:00 [DBG] Connection id "0HMLOD9TCCIV0" stopped.
