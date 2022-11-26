@@ -19,6 +19,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection")); 
 });
 builder.Host.UseSerilog();
+builder.Services.AddHttpClient<IVillaRepository, VillaRepository>();
+builder.Services.AddHttpClient<IVillaNumberRepository, VillaNumberRepository>();
 builder.Services.AddScoped<IVillaRepository, VillaRepository>();
 builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
