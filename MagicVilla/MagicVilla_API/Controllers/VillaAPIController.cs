@@ -3,6 +3,7 @@ using MagicVilla_API.DTOs.Readable;
 using MagicVilla_API.DTOs.Writable;
 using MagicVilla_API.Models;
 using MagicVilla_API.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -24,7 +25,9 @@ namespace MagicVilla_API.Controllers
             _mapper = mapper;
             this._response = new();
         }
+       
         [HttpGet]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillas()
         {
@@ -45,6 +48,8 @@ namespace MagicVilla_API.Controllers
             return _response;
         }
 
+
+        [Authorize(Roles = "admin")]
         [HttpGet("{id:int}", Name = "GetVilla")]
         //[ProducesResponseType(200, Type = typeof(VillaDTO)]
         //[ProducesResponseType(400)]
@@ -82,6 +87,7 @@ namespace MagicVilla_API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles ="admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<ActionResult<APIResponse>> CreateVilla([FromBody] VillaCreateDTOW CreateDTO)
         {
@@ -127,6 +133,7 @@ namespace MagicVilla_API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [HttpDelete("{id:int}", Name = "DeleteVilla")]
+        [Authorize(Roles = "CUSTOM")]
         public async Task<ActionResult<APIResponse>> DeleteVilla(int id)
         {
             try
